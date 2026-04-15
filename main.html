@@ -5,10 +5,71 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
+<form method="post">
+	
+	<label for="name">
+	Name:<input id="name" type="text" placeholder="Name" required>
+	</label>
+  <br>
+<br>	
+	<label for="email">
+	Email:<input id="email" type="email" placeholder="Email" required>
+	</label>
+	<br>
+	<br>
+    Gender:
+	<br>
+	<label for="gender_m">
+	Male<input id="gender_m" type="radio"  name="Gender" value="Male" required>
+	</label>
 
+	<label for="gender_f">
+	Female<input id="gender_f" type="radio" name="Gender" value="Female" required>
+	</label>
+	<br>
+	<br>
+	<label for="cars">Cars</label>
+	<select>
+		<option value="Please choose an option">Please choose an option</option>
+		<option value="Audi">Audi</option>
+		<option value="Mercedes">Mercedes</option>
+		<option value="Toyota">Toyota</option>
+	</select>
+	<br>
+	<br>
+	<label for="age">
+		Age:<input id="age" type="number" placeholder="Age" required>
+	</label>
+
+	<br>
+	<br>
+	<label for="dob">
+		DOB:<input id="dob" type="date"  required>
+	</label>
+
+	<br>
+	<br>
+	<label for="tel">
+		Phone Number:<input id="tel" type="tel" placeholder="xx-xxx-xxxx" required>
+	</label>
+
+
+	<br>
+	<br>
+	<label for="password">
+		Password:<input id="password" type="password" placeholder="Password" required>
+	</label>
+	
+	<br>
+	<br>
+	<label for="tos">
+		I agree to the tos:<input id="tos" type="checkbox" placeholder="" required>
+	</label>
+</form>
+	
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+    <script type="text/javascript" src="./script.js">	
 </script>
 
 </body>
